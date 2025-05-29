@@ -1,0 +1,13 @@
+[package]
+name = "aptocart"
+version = "0.0.1"
+authors = []
+
+[addresses]
+aptocart = "0x725e32546925e7ee5054016de5b3bb008d1a03ee153b5e42c0407fabfa2512ae"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+
+[dev-addresses]
+aptocart = "0x725e32546925e7ee5054016de5b3bb008d1a03ee153b5e42c0407fabfa2512ae"
